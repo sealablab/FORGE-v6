@@ -1,0 +1,6 @@
+[submodule "libs/moku-models"]
+	path = libs/moku-models
+	url = https://github.com/sealablab/moku-models-v4
+[submodule "libs/riscure-models"]
+	path = libs/riscure-models
+	url = https://github.com/sealablab/riscure-models-v4
