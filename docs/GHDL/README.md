@@ -4,9 +4,9 @@ Maintainer: Moku Instrument Forge Team
 ---
 # [GHDL](https://github.com/ghdl/ghdl)
 
-**GHDL** is an opensource VHDL toolchain. [[docs/README|FORGE-V5]] relies on it extensively. 
+**GHDL** is an opensource VHDL toolchain. [FORGE-V5](../../docs/README.md) relies on it extensively. 
 
-## [[docs/GHDL/GHDL Output Filter|GHDL Output Filter]]
+## [GHDL Output Filter](GHDL Output Filter.md)
 
 
 ## Custom Script

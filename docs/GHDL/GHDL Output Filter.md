@@ -3,10 +3,10 @@ Last Updated: 2025-11-04
 Maintainer: Moku Instrument Forge Team
 ---
 
-# [[docs/FORGE-V5/GHDL/GHDL Output Filter|GHDL Output Filter]]
+# [GHDL Output Filter](../../docs/FORGE-V5/GHDL/GHDL Output Filter.md)
 
 
-#### code xref:  [[libs/forge-vhdl/scripts/ghdl_output_filter.py|ghdl_output_filter]]
+#### code xref:  [ghdl_output_filter](../../libs/forge-vhdl/scripts/ghdl_output_filter.py.md)
 
 
 Intelligently filters GHDL simulator output to reduce verbosity by 80-98% while preserving all critical information (errors, failures, test results).
@@ -15,7 +15,7 @@ Intelligently filters GHDL simulator output to reduce verbosity by 80-98% while 
 - Operates at OS file descriptor level (redirects fd 1 and 2), so even C code (GHDL) can't bypass it!
 
 # See Also
-## [[docs/FORGE-V5/Progressive Testing/README|Progressive Testing]]
+## [Progressive Testing](../../docs/FORGE-V5/Progressive Testing/README.md)
 
 - **Integration:** `tests/run.py` (FilteredOutput class)
 

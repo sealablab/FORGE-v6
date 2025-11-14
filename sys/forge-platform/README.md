@@ -1,4 +1,4 @@
-# [[forge-platform/README|forge-platform]]
+# [forge-platform](../../forge-platform/README.md)
 # Moku Instrument Forge
 
 > **Build custom FPGA instruments for Moku platforms with safety, clarity, and AI assistance**
@@ -54,13 +54,13 @@ cat vhdl/FORGE_ARCHITECTURE.md
 ## LAYER1: MCC_Top_Wrapper
 @CLAUDE / @JC: This actually needs to change..
 
-##### CODE XREF: [[examples/basic-probe-driver/vhdl/BPD_forge_shim.vhd|BPD_forge_shim]]
+##### CODE XREF: [BPD_forge_shim](../../examples/basic-probe-driver/vhdl/BPD_forge_shim.vhd)
 
 ### LAYER2: APP_forge_shim
-##### CODE XREF: [[examples/basic-probe-driver/vhdl/BPD_forge_shim.vhd|BPD_forge_shim]]
+##### CODE XREF: [BPD_forge_shim](../../examples/basic-probe-driver/vhdl/BPD_forge_shim.vhd)
 
 #### LAYER3: APP_forge_main
-##### CODE XREF: [[examples/basic-probe-driver/vhdl/BPD_forge_main.vhd|BPD_forge_main]]
+##### CODE XREF: [BPD_forge_main](../../examples/basic-probe-driver/vhdl/BPD_forge_main.vhd)
 **L3**: Your Application code starts here. It has access to
 - (magical, gated) network settable registers 
 

@@ -1,4 +1,4 @@
-# [[docs/Moku Platforms/Moku Delta/README|Moku Delta]]
+# [Moku Delta](README.md)
 
 
 # See Also

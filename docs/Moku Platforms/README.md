@@ -1,4 +1,4 @@
-# [[docs/Moku Platforms/README|Moku Platforms]]
+# [Moku Platforms](README.md)
 
 > [!NOTE] This is __offically__ defined inside the moku-models-v4 submodule! 
 > 

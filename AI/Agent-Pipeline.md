@@ -1,4 +1,4 @@
-# [[AI/Agent-Pipeline|Agent-Pipeline]]
+# [Agent-Pipeline](Agent-Pipeline.md)
 This document describes the N-state pipeline that the Agents exist and work inside
 
 

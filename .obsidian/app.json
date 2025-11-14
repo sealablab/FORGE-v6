@@ -4,5 +4,7 @@
   "newLinkFormat": "absolute",
   "showUnsupportedFiles": true,
   "alwaysUpdateLinks": true,
-  "promptDelete": false
+  "promptDelete": false,
+  "attachmentFolderPath": "./",
+  "useMarkdownLinks": true
 }

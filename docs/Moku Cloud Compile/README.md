@@ -5,4 +5,4 @@
 
 ## [MCC Examples](https://github.com/liquidinstruments/moku-examples/tree/main/mcc)
 
-## [[docs/N/Custom Wrapper/README|Custom Wrapper]]
+## [Custom Wrapper](../../docs/N/Custom Wrapper/README.md)

@@ -3,48 +3,7 @@
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
 ## Overview
-
-**FORGE-v6** is a platform-agnostic FPGA development framework for building custom instruments on Moku hardware platforms (Go, Lab, Pro, Delta). The repository implements the **FORGE architecture** (Formal Organization for Register-Gated Execution) - a 3-layer pattern that provides safe initialization, clean abstraction, and AI-friendly design for custom FPGA firmware.
-
-## Project Architecture
-
-### High-Level Structure
-
-```
-FORGE-v6/
-├── sys/forge-platform/     # FORGE foundational VHDL entities (MCC interface)
-├── libs/                   # Git submodules for platform models and utilities
-│   ├── moku-models/       # Pydantic models for Moku platform specs
-│   ├── riscure-models/    # Example probe specifications
-│   └── forge-vhdl/        # Reusable VHDL components
-├── examples/              # Reference implementations
-│   ├── basic-probe-driver/ # Production FORGE reference (fault injection driver)
-│   └── counter/           # Minimal viable FORGE example
-├── docs/                  # Architecture documentation
-└── AI/                    # Agent definitions and workflows
-```
-
-### The FORGE 3-Layer Architecture
-
-The core innovation of this system is the FORGE 3-layer architecture that separates concerns:
-
 ### FORGE Control Scheme (CR0[31:29])
-
-The FORGE control scheme uses 3 bits in Control Register 0 for safe initialization:
-
-```
-CR0[31] = forge_ready   ← Set by loader after deployment
-CR0[30] = user_enable   ← User control (GUI toggle)
-CR0[29] = clk_enable    ← Clock gating control
-```
-
-
-**All four conditions must be met** for the module to operate:
-```vhdl
-global_enable = forge_ready AND user_enable AND clk_enable AND loader_done
-```
-
-This ensures modules are disabled on power-on and only start when fully initialized.
 
 ## Common Development Tasks
 

@@ -27,16 +27,36 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Multi intsrument Mode/README.md",
+                "file": "__meta/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Untitled"
             }
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "ea50624119696248",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8901666ec5cb5a07",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/CLAUDE.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CLAUDE"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Multi intsrument Mode/README.md",
+                "file": "__meta/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +139,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for README"
+              "title": "Backlinks for Untitled"
             }
           },
           {
@@ -128,12 +148,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Multi intsrument Mode/README.md",
+                "file": "__meta/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from README"
+              "title": "Outgoing links from Untitled"
             }
           },
           {
@@ -171,13 +191,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Multi intsrument Mode/README.md",
+                "file": "__meta/Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of Untitled"
             }
           }
         ]
@@ -194,22 +214,46 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "5f965d85dc56104d",
   "lastOpenFiles": [
-    "docs/Moku Platforms/Moku Go/README.md",
-    "docs/Moku Platforms/Moku Delta/README.md",
-    "docs/Moku Cloud Compile/README.md",
-    "docs/GHDL/README.md",
-    "docs/GHDL/GHDL Output Filter.md",
+    "docs/TEST_MARKDOWN_LINKS.md",
+    "convert_links.py",
+    "convert_links.py.tmp.87446.1763081730458",
+    "examples/counter/README.md",
+    "AI/Agents/README.md",
+    "README.md",
+    "__meta/Untitled.md",
+    "__meta",
+    "sys/forge-platform/L1-FORGE-MCC-TOP.md",
+    "sys/forge-platform/L1-FORGE-MCC-TOP/README.md",
+    "docs/Forge Loading System/Forge Control Scheme.md",
+    "docs/CLAUDE.md",
+    "docs/N/Custom Wrapper/README.md",
     "docs/Forge Loading System/README.md",
-    "docs/Custom Instrument/README.md",
-    "docs/fix_headings.py",
-    "docs/FORGE-V5/Custom Instrument/README.md",
-    "docs/FORGE-V5/Custom Instrument",
-    "docs/FORGE-V5",
-    "docs/CocoTB/README.md"
+    "CLAUDE.md",
+    "Obsd/claude_init.md",
+    "AI/README.md",
+    "docs/Multi intsrument Mode/README.md",
+    "libs/riscure-models/riscure_models/probes/__init__.py",
+    "libs/riscure-models/riscure_models/probes/ds1120a.py",
+    "libs/riscure-models/riscure_models/probes",
+    "libs/riscure-models/riscure_models/__init__.py",
+    "libs/riscure-models/riscure_models",
+    "libs/riscure-models/pyproject.toml",
+    "libs/riscure-models/llms.txt",
+    "libs/riscure-models/README.md",
+    "libs/riscure-models/DETAILS.md",
+    "libs/moku-models/examples/README.md",
+    "libs/moku-models/examples/04-with-waveform-gen.md",
+    "libs/moku-models/examples/03-full-io-utilization.md",
+    "libs/moku-models/examples/02-dual-monitoring.md",
+    "libs/moku-models/examples/01-basic-cloudcompile.md",
+    "libs/moku-models/docs/routing_patterns.md",
+    "libs/moku-models/docs/MOKU_PLATFORM_SPECIFICATIONS.md",
+    "libs/moku-models/datasheets/MokuGo-Features.md"
   ]
 }

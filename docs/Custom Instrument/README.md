@@ -2,7 +2,7 @@
 Last Updated: 2025-11-12
 Maintainer: Moku Instrument Forge Team
 ---
-#  [[docs/Custom Instrument/README|Custom Instrument]]
+#  [Custom Instrument](README.md)
 
 
 The **Custom Instrument** is the terminology liquid instruments is migrating to in the future. 
@@ -42,7 +42,7 @@ entity Your_CustomApp_here is
 ```
 
 # See Also
-##  [[docs/N/Custom Wrapper/README|Custom Wrapper]]
+##  [Custom Wrapper](../../docs/N/Custom Wrapper/README.md)
 
 # See Also
 ## [MCC Examples](https://github.com/liquidinstruments/moku-examples/tree/main/mcc)
