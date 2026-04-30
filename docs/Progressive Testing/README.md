@@ -3,7 +3,7 @@
 
 **Progressive testing** is the idea that Agents (and humans for that matter) can get farther faster if they start with very basic hardware validation tests and then progressively iterate and refine them.
 
-Towards that end, the [FORGE-V5](../../docs/README.md) system outlines the follow rules defining four phases of progressive tests
+Toward that end, the [FORGE-v6](../../docs/README.md) system outlines the following rules defining four phases of progressive tests.
 
 
 # See Also

@@ -1,29 +1,23 @@
-## [FORGE-V5](README.md)
+# FORGE-v6 Documentation
 
-The **FORGE-V5** platform is designed to allow for amateurs (aka, software developers) to build customized hardware designs in a platform-agnostic manner.
-. 
-# FORGE-V5: Features
+FORGE-v6 is a platform-agnostic FPGA development framework for building custom instruments on Moku hardware.
 
-### [Agentic (LLM) friendly design](../AI/Agents/README.md)
+## Core Concepts
 
-### [Progressive Testing](Progressive Testing/README.md)
+- [Custom Instrument](Custom Instrument/README.md)
+- [Custom Wrapper](N/Custom Wrapper/README.md)
+- [Progressive Testing](Progressive Testing/README.md)
+- [CocoTB](CocoTB/README.md)
+- [Forge Loading System](Forge Loading System/README.md)
 
-### [CocoTB](CocoTB/README.md)
+## Platform Guides
 
-## Forge-V5: Core concepts:
-## [Custom Wrapper](N/Custom Wrapper/README.md)
-The **Custom Wrapper** is Liquid Instruments 
+- [Moku Platforms](Moku Platforms/README.md)
+- [Moku Cloud Compile](Moku Cloud Compile/README.md)
+- [GHDL](GHDL/README.md)
 
-## FORGE-V5: Layout
-The FORGE-V5 has the following directory structure:
-------
+## Related Sections
 
-# [FORGE_ROOT]()
-## [Examples](../examples/README.md)
-
-#### [Basic Probe Driver (BPD)](../examples/basic-probe-driver/README.md)
-####  [Counter](../examples/counter/README.md)
- 
-
-
-
+- [Examples](../examples/README.md)
+- [System / forge-platform](../sys/forge-platform/README.md)
+- [AI Agents](../AI/Agents/README.md)

@@ -1,5 +1,5 @@
-# [Platforms](../../docs/FORGE-V5/Moku Platforms/Platforms.md)
-# Moku Platform Hardware Specifications
+# Platforms
+## Moku Platform Hardware Specifications
 ##
 ---
 
