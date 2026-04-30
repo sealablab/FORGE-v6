@@ -10,10 +10,10 @@ Maintainer: Moku Instrument Forge Team
 
 In english, **Cocotb** lets you design and run **unit tests** against your FPGA designs without the need for any vendor specific toolchain or simulator.
 
-The [FORGE-V5](../../docs/README.md) ecosystem makes **extensive use** of cocotb.
+The [FORGE-v6](../../docs/README.md) ecosystem makes **extensive use** of cocotb.
 
 
-> [!NOTE]  The  [FORGE-V5](../../docs/README.md) ecosystem will put cocotb style unit tests inside a `cocotb-tests` directory 
+> [!NOTE]  The [FORGE-v6](../../docs/README.md) ecosystem places cocotb unit tests inside a `cocotb-tests` directory.
 
 # See Also
 ## 
